@@ -7,11 +7,7 @@ import (
 	"os"
 )
 
-/* const (
-	token = os.Getenv($hodspslacktokne)
-)
-*/
-
+//list slack users 
 func main() {
 
 	token := os.Getenv("hoddspslacktoken")
